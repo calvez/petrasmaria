@@ -36,4 +36,7 @@ require_once('library/custom-header.php');
 // Add Post Type: Zene
 require_once('library/zene-post-type.php');
 
+// Add custom functions
+
+require_once('library/petras-theme-settings.php')
 ?>
