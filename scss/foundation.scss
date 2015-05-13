@@ -69,12 +69,4 @@
 @import "site/hero";
 @import "site/footer";
 
-// Google Fonts
-@import url(http://fonts.googleapis.com/css?family=Marcellus&subset=latin,latin-ext);
-
-$header-font: Marcellus;
-
-h1, h2, h3, h4, h5, h6 {
-  font-family: $header-font;
-  font-weight: normal;
-}
+@import "site/my_theme";

@@ -1,0 +1,12 @@
+$my-headers: Georgia, Times, serif;
+$my-bodytext: Tahoma, Verdana, sans-serif;	
+
+$my-primary-text-color: #444444;
+
+body {
+	font-family: $my-bodytext;
+}
+
+h1, h2, h3, h4, h5, h6 {
+	font-family: $my-headers;
+}
