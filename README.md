@@ -1,29 +1,7 @@
-# FoundationPress [![Build Status](https://travis-ci.org/olefredrik/FoundationPress.svg?branch=master)](https://travis-ci.org/olefredrik/FoundationPress)
-
-This is a WordPress starter theme based on Foundation 5 by Zurb. The purpose of FoundationPress, is to act as a small and handy toolbox that contains the essentials needed to build any design. FoundationPress is meant to be a starting point, not the final product. If you're looking for an all-in-one theme with built-in shortcodes, plugins, fancypancy portfolio templates or whatnot, I'm afraid you have to look elsewhere.
-
-Please fork, copy, modify, delete, share or do whatever you like with this.
-
-All contributions are welcome!
-
+# PetrasMaria.hu wordpress téma 
+github.com:olefredrik/FoundationPress alapján
 ## Requirements
 
-**A brief explanation to the requirements** (feel free to skip this if you're a pro):
-
-Back in the days we wrote all styles in the style.css file. Then we realized that this could quickly create clutter and confusion, especially in larger projects. Foundation uses SASS (equivalent to LESS, used in Bootstrap). In short, SASS is a CSS pre-processor that allows you to write styles more effectively and tidy.
-
-To compile SASS files into one style sheet, we use a tool called Grunt. In short, Grunt is a task runner that automates repetitive tasks like minification, compilation, linting, etc. Grunt and Grunt plugins are installed and managed via npm, the Node.js package manager. Before setting up Grunt ensure that your npm is up-to-date by running ```npm update -g npm``` (this might require ```sudo``` on certain systems)
-
-Bower is a package manager used by Zurb to distribute Foundation. When you have Bower installed, you will be able to run ```foundation update``` in the terminal to update Foundation to the latest version. (After an upgrade you must run ```npm run build``` to recompile files).
-
-
-**Okay, so you'll need to have [Node.js](http://nodejs.org) installed before continuing.**
-
-**And that is it.**
-
-Many project force their users to install [Bower](http://bower.io) and [Grunt](http://gruntjs.com/) globally. We don't like that and decided to use them via `npm scripts` which means, that Grunt and Bower are installed in your `node_modules` folder and we'll call them there.
-
-Haven't used this approach yet? Read on.
 
 ## Quickstart
 
@@ -40,6 +18,16 @@ $ cd your-theme-name
 # for further information
 $ npm install
 ```
+
+## IMPORTANT
+Ubuntu error:
+npm WARN This failure might be due to the use of legacy binary "node"
+npm WARN For further explanations, please read
+/usr/share/doc/nodejs/README.Debian
+
+## Solution
+In short, try sudo apt-get install nodejs-legacy.
+https://github.com/google/web-starter-kit/issues/323
 
 **Tip:**
 If you get an error saying Permission denied (publickey) when cloning the repository, use the https protocol instead:
