@@ -7,6 +7,12 @@
 $font-family-sans-serif: "Helvetica Neue", Helvetica, Roboto, Arial, sans-serif;
 $font-family-serif: Georgia, Cambria, "Times New Roman", Times, serif;
 $font-family-monospace: Consolas, "Liberation Mono", Courier, monospace;
+$header-font-family: "Marcellus", serif;
+$h1-font-family:$font-family-serif;
+
+h1.heading-h1 {
+  font: bold 1.25em/1.25 $body-font-family;
+}
 
 // We use these to define default font weights
 $font-weight-normal: normal !default;
@@ -34,17 +40,60 @@ $jet         : #222222;
 $black       : #000000;
 
 // We use these as default colors throughout
-$primary-color: #008CBA;
+$primary-color: $oil;
 $secondary-color: #e7e7e7;
 $alert-color: #f04124;
 $success-color: #43AC6A;
 $warning-color: #f08a24;
 $info-color: #a0d3e8;
 
+// Top bar settings - PetrasM
+$topbar-bg-color: $white;
+$topbar-bg: $topbar-bg-color;
+$topbar-link-color: $oil;
+$topbar-link-color-hover: $oil;
+$topbar-link-color-active: $oil;
+$topbar-link-color-active-hover: $oil;
+$topbar-link-text-transform: italic;
+
+//Set the link colors and styles for top-level nav
+// $topbar-link-color: $white;
+// $topbar-link-color-hover: $white;
+// $topbar-link-color-active: $white;
+// $topbar-link-color-active-hover: $white;
+// $topbar-link-weight: $font-weight-normal;
+// $topbar-link-font-size: rem-calc(13);
+// $topbar-link-hover-lightness: -10%; // Darken by 10%
+$topbar-link-bg: $topbar-bg;
+$topbar-link-bg-hover: $topbar-bg;
+$topbar-link-bg-color-hover: $charcoal;
+$topbar-link-bg-active: $white;
+$topbar-link-bg-active-hover: scale-color($primary-color, $lightness: -14%);
+// $topbar-link-font-family: $body-font-family;
+// $topbar-link-text-transform: none;
+// $topbar-link-padding: ($topbar-height / 3);
+// $topbar-back-link-size: rem-calc(18);
+// $topbar-link-dropdown-padding: rem-calc(20);
+// $topbar-button-font-size: .75rem;
+// $topbar-button-top: 7px;
+
+// Style the top bar dropdown elements
+// $topbar-dropdown-bg: $oil;
+// $topbar-dropdown-link-color: $white;
+// $topbar-dropdown-link-color-hover: $topbar-link-color-hover;
+// $topbar-dropdown-link-bg: $oil;
+// $topbar-dropdown-link-bg-hover: $jet;
+// $topbar-dropdown-link-weight: $font-weight-normal;
+// $topbar-dropdown-toggle-size: 5px;
+// $topbar-dropdown-toggle-color: $white;
+// $topbar-dropdown-toggle-alpha: .4;
+
+/// top bar ends
+
 // We use these to control various global styles
 $body-bg: $white;
 $body-font-color: $jet;
-$body-font-family: $font-family-sans-serif;
+$body-font-family: $font-family-serif;
 $body-font-weight: $font-weight-normal;
 $body-font-style: normal;
 $header-font-weight: 300;
